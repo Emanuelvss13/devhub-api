@@ -8,7 +8,7 @@ import { StudantModule } from './infra/ioc/studant/studant.module';
     AuthenticationModule,
     TeacherModule,
     StudantModule,
-    TypeOrmDatabaseModule,
+    // TypeOrmDatabaseModule,
   ],
 })
 export class AppModule {}
