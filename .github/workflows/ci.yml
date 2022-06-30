@@ -52,5 +52,4 @@ jobs:
         port: ${{ secrets.SSH_PORT_DEV }}
         password: ${{ secrets.SSH_KEY_DEV }}
         script: |
-          cd ~/app/devhub-api
-          node dist/main.js
+          pm2 restart main
